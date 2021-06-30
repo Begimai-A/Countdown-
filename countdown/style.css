@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgb(27, 157, 177);
+    padding: 3rem;
+}
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.day,.hour,.minute,.second{
+    font-size: 3rem;
+}
+img{
+    height: 600px;
+    width: 1200px;
+}
